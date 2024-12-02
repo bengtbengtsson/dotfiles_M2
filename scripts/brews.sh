@@ -48,6 +48,7 @@ brew install \
     alacritty \
     ansible \
     bash \
+    cmake \
     cmatrix \
     dockutil \
     fossil \
