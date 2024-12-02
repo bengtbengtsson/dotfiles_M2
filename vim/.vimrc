@@ -41,6 +41,24 @@ nnoremap Y y$             " Make 'Y' behave like 'D' and 'C'
 vnoremap < <gv            " Indent visually selected block left and reselect
 vnoremap > >gv            " Indent visually selected block right and reselect
 
+" Disable arrow keys in normal mode
+nnoremap <Up>    <nop>
+nnoremap <Down>  <nop>
+nnoremap <Left>  <nop>
+nnoremap <Right> <nop>
+
+" Disable arrow keys in insert mode
+inoremap <Up>    <nop>
+inoremap <Down>  <nop>
+inoremap <Left>  <nop>
+inoremap <Right> <nop>
+
+" Disable arrow keys in visual mode
+vnoremap <Up>    <nop>
+vnoremap <Down>  <nop>
+vnoremap <Left>  <nop>
+vnoremap <Right> <nop>
+
 " File and buffer management
 set hidden                " Allow switching buffers without saving
 set backup                " Enable backups
@@ -67,6 +85,5 @@ autocmd FileType python set tabstop=4 shiftwidth=4 expandtab  " Python-specific 
 
 " Appearance
 " These lines must be after the Plugins
-set background=dark       " Set background to dark
+set background=dark                " Set background to dark
 colorscheme gruvbox-material       " Use Gruvbox colorscheme
-
