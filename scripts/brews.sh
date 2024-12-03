@@ -78,7 +78,6 @@ brew install mongodb-community@5.0
 # Install cask applications
 brew install --cask \
     brave-browser \
-    karabiner-elements \
     docker \
     google-chrome \
     logisim-evolution \
