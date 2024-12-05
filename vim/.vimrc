@@ -66,6 +66,9 @@ set backupdir=~/.vim/backups " Directory for backup files
 set undofile              " Enable persistent undo
 set undodir=~/.vim/undo   " Directory for undo files
 
+" remap to fix issue with copy all file content to global clipboard
+nnoremap ggyG gg"+yG
+
 " Plugins (e.g., with vim-plug)
 call plug#begin('~/.vim/plugged')
 Plug 'preservim/nerdtree'             " File explorer
