@@ -9,4 +9,8 @@ PATH="$HOME/dotfiles/scripts:$PATH"
 
 PATH="$HOME/neovim/bin:$PATH"
 
+PATH="/opt/homebrew/bin:$PATH"
+
+PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
+
 PS1=$'\n$ '

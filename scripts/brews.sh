@@ -48,16 +48,19 @@ brew install \
     alacritty \
     ansible \
     bash \
+    binutils \
     cmake \
     cmatrix \
     dockutil \
     fossil \
     fzf \
+    gcc \
     git \
     gnupg \
     go \
     htop \
     lazygit \
+    make \
     mas \
     mongosh \
     neofetch \
@@ -74,6 +77,8 @@ brew install \
 # Install additional tools from taps
 brew tap mongodb/brew
 brew install mongodb-community@5.0
+brew tap riscv-software-src/homebrew-riscv
+brew install aarch64-elf-gcc
 
 # Install cask applications
 brew install --cask \
