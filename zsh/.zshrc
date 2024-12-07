@@ -8,3 +8,5 @@ PATH=$PATH:/Users/ben/Library/Android/sdk/platform-tools
 PATH="$HOME/dotfiles/scripts:$PATH"
 
 PATH="$HOME/neovim/bin:$PATH"
+
+PS1=$'\n$ '

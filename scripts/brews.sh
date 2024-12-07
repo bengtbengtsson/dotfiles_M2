@@ -88,6 +88,7 @@ brew install --cask \
     raycast \
     the-unarchiver \
     thonny \
+    visual-studio-code \
     vlc \
     zoom
 
@@ -192,3 +193,6 @@ echo "Restarting Dock..."
 killall Dock
 
 echo "Dock setup complete!"
+
+# Install manually
+# Android Studio
