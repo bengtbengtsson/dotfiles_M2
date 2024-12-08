@@ -35,11 +35,15 @@ set lazyredraw            " Redraw screen only when necessary
 set updatetime=300        " Faster completion (default is 4000ms)
 set timeoutlen=500        " Shorter timeout for mapped sequences
 
+" Use mouse in all modes
+set mouse=a
+
 " Key mappings
 nnoremap <Space> :noh<CR> " Clear search highlights with Space
 nnoremap Y y$             " Make 'Y' behave like 'D' and 'C'
 vnoremap < <gv            " Indent visually selected block left and reselect
 vnoremap > >gv            " Indent visually selected block right and reselect
+nnoremap <C-å> <C-]>
 
 " Disable arrow keys in normal mode
 nnoremap <Up>    <nop>
