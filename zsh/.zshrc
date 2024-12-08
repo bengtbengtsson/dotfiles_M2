@@ -14,3 +14,6 @@ PATH="/opt/homebrew/bin:$PATH"
 PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 
 PS1=$'\n$ '
+
+
+alias dot="cd ~/dotfiles"
