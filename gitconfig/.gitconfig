@@ -1,0 +1,8 @@
+[user]
+	name = Bengt Bengtsson
+	email = bengt.bengtsson@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
