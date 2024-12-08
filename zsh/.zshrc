@@ -17,3 +17,5 @@ PS1=$'\n$ '
 
 
 alias dot="cd ~/dotfiles"
+alias v=nvim
+alias ..="cd .."
