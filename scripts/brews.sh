@@ -68,6 +68,7 @@ brew install \
     tmux \
     tree \
     watchman \
+    wezterm \ 
     wget \
     yazi
 
