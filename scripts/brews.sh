@@ -50,6 +50,7 @@ brew install \
     bash \
     cmatrix \
     dockutil \
+    fd \
     fossil \
     fzf \
     git \

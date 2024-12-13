@@ -6,7 +6,7 @@ return {
 	send_composed_key_when_right_alt_is_pressed = true,
 
 	-- Font settings
-	font_size = 16.0,
+	font_size = 14.0,
 
 	-- Colors: Gruvbox-Material
 	color_scheme = "GruvboxDark", -- WezTerm includes Gruvbox by default. Alternatively, define colors below.
