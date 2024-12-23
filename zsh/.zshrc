@@ -21,5 +21,4 @@ alias v=nvim
 alias ..="cd .."
 alias aoc="cd ~/aoc/2024"
 
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/ben/.cache/lm-studio/bin"
+setopt globdots

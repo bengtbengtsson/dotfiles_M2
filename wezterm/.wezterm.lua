@@ -1,6 +1,8 @@
 local wezterm = require("wezterm")
 
 return {
+	--	default_prog = { "/opt/homebrew/bin/tmux" },
+
 	-- fix macos issue, typing {}[]| etc (use of Option key)
 	send_composed_key_when_left_alt_is_pressed = true,
 	send_composed_key_when_right_alt_is_pressed = true,

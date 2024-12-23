@@ -53,6 +53,7 @@ brew install \
     fd \
     fossil \
     fzf \
+    gh \
     git \
     gnupg \
     go \
