@@ -47,6 +47,7 @@ echo "Installing applications and tools via Homebrew..."
 brew install \
     alacritty \
     ansible \
+    asciiTex \
     bash \
     cmatrix \
     dockutil \
