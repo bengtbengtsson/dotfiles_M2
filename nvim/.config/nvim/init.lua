@@ -7,6 +7,7 @@ vim.keymap.set("n", "<space><space>x", "<cmd>source %<CR>")
 vim.keymap.set("n", "<space>x", ":.lua<CR>")
 vim.keymap.set("v", "<space>x", ":lua<CR>")
 vim.keymap.set('n', '<C-å>', '<C-]>', { noremap = true, silent = true }) -- CTRL-] does not work
+
 -- highlight when yanking (copying) text
 -- try it with `yap` in normal mode
 -- see `:help vim.highlight.on_yank()`
@@ -37,3 +38,11 @@ vim.keymap.set("n", "<space>st", function()
   vim.api.nvim_win_set_height(0, 5)
 end
 )
+
+-- oil.nvim
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+require("oil").setup({
+  view_options = {
+    show_hidden = true,
+  },
+})
