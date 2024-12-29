@@ -87,6 +87,7 @@ brew install --cask \
     logisim-evolution \
     microsoft-office \
     microsoft-teams \
+    mullvadvpn \
     obsidian \
     postman \
     raycast \
