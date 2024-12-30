@@ -1,5 +1,10 @@
 font-size = 18
 
+# remove ligatures
+font-feature = -liga
+font-feature = -calt
+font-feature = -dlig
+
 theme = GruvBoxDark
 
 mouse-hide-while-typing = true
