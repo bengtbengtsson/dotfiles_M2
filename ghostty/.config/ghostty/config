@@ -1,4 +1,4 @@
-font-size = 18
+font-size = 16 
 
 # remove ligatures
 font-feature = -liga
