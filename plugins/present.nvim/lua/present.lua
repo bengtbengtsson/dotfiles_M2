@@ -167,7 +167,7 @@ M.start_presentation = function(opts)
   end)
 
   present_keymap("n", "p", function()
-    state.current_slide = math.min(state.current_slide - 1, #state.parsed.slides)
+    state.current_slide = math.max(state.current_slide - 1, 1)
     set_slide_content(state.current_slide)
   end)
 
@@ -222,6 +222,8 @@ M.start_presentation = function(opts)
   set_slide_content(state.current_slide)
 end
 
-M.start_presentation({ bufnr = 4 })
+--M.start_presentation({ bufnr = 4 })
+
+M._parse_slides = parse_slides
 
 return M

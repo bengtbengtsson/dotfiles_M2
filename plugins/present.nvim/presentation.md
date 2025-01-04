@@ -1,7 +1,7 @@
-# 1
+# Slide 1
 
-- 1
+- Content of slide 1
 
-# 2
+# Slide 2
 
-- 2
+- Content of slide 2
