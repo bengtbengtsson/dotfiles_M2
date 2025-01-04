@@ -19,7 +19,7 @@ describe("present.parse_slides", function()
     assert.are.same({
       slides = {
         {
-          title = '# This is the first slide with error',
+          title = "# This is the first slide",
           body = { "This is the body" },
         }
       }
