@@ -1,0 +1,2 @@
+### Usage
+```stow -t ~ <folder>```
