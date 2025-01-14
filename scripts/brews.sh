@@ -45,7 +45,6 @@ echo "Homebrew is ready to use!"
 #
 echo "Installing applications and tools via Homebrew..."
 brew install \
-    alacritty \
     ansible \
     asciiTex \
     bash \
@@ -67,11 +66,11 @@ brew install \
     nvm \
     nushell \
     ripgrep \
+    s3cmd \
     stow \
     tmux \
     tree \
     watchman \
-    wezterm \ 
     wget \
     yazi
 
