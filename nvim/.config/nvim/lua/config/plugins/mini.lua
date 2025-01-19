@@ -1,9 +1,13 @@
 return {
-	{
-		'echasnovski/mini.nvim',
-		config = function()
-			local statusline = require 'mini.statusline'
-			statusline.setup  { use_icons = true}
-		end
-	}
+  {
+    'echasnovski/mini.nvim',
+    config = function()
+      local statusline = require 'mini.statusline'
+      statusline.setup { use_icons = true }
+
+      require('mini.ai').setup()
+      require('mini.surround').setup()
+      require('mini.pairs').setup()
+    end
+  }
 }
