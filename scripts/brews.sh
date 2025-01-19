@@ -60,6 +60,7 @@ brew install \
     htop \
     lazygit \
     lua-language-server \
+    luarocks \
     mas \
     mongosh \
     neofetch \
