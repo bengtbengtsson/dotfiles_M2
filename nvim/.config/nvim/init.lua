@@ -32,9 +32,9 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 7
 
 -- execute lua
-vim.keymap.set("n", "<space><space>x", "<cmd>source %<CR>")
-vim.keymap.set("n", "<space>x", ":.lua<CR>")
-vim.keymap.set("v", "<space>x", ":lua<CR>")
+vim.keymap.set("n", "<leader><leader>x", "<cmd>source %<CR>")
+vim.keymap.set("n", "<leader>x", ":.lua<CR>")
+vim.keymap.set("v", "<leader>x", ":lua<CR>")
 
 -- replace CTRL-]
 vim.keymap.set('n', '<C-å>', '<C-]>', { noremap = true, silent = true }) -- CTRL-] does not work
@@ -92,7 +92,7 @@ vim.api.nvim_create_autocmd('TermOpen', {
 
 -- just a shortcut to start :terminal
 -- might not be needed
-vim.keymap.set("n", "<space>st", function()
+vim.keymap.set("n", "<leader>st", function()
   vim.cmd.vnew()
   vim.cmd.term()
   vim.cmd.wincmd("J")
