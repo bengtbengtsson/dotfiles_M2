@@ -97,6 +97,7 @@ brew install --cask \
     thonny \
     visual-studio-code \
     vlc \
+    whatsapp \
     zoom
 
 # Post-install message
@@ -104,7 +105,6 @@ echo "Installation complete. Review output for any issues."
 
 # Optional: Cleanup
 brew cleanup
-
 
 #
 # Check if Rosetta 2 is installed
@@ -132,7 +132,6 @@ fi
 #
 brew services restart mongodb-community@5.0
 brew services list
-
 
 #
 # macos defaults
