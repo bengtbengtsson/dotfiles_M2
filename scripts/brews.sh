@@ -53,6 +53,7 @@ brew install \
     fd \
     fossil \
     fzf \
+    gforth \
     gh \
     git \
     gnupg \
@@ -98,6 +99,7 @@ brew install --cask \
     visual-studio-code \
     vlc \
     whatsapp \
+    windsurf \
     zoom
 
 # Post-install message
