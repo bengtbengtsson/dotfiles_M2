@@ -6,31 +6,31 @@ set -e
 # Check if Homebrew is installed
 #
 echo "Checking if Homebrew is installed..."
-if ! command -v brew &> /dev/null; then
-    echo "Homebrew is not installed. Installing Homebrew..."
+if ! command -v brew &>/dev/null; then
+  echo "Homebrew is not installed. Installing Homebrew..."
 
-    # Install Homebrew
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  # Install Homebrew
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-    # Check for errors during installation
-    if [ $? -ne 0 ]; then
-        echo "Homebrew installation failed. Exiting."
-        exit 1
-    fi
+  # Check for errors during installation
+  if [ $? -ne 0 ]; then
+    echo "Homebrew installation failed. Exiting."
+    exit 1
+  fi
 
-    echo "Homebrew installed successfully."
+  echo "Homebrew installed successfully."
 
-    # Post-installation setup
-    if [[ "$OSTYPE" == "darwin"* ]]; then
-        # For macOS
-        echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-        eval "$(/opt/homebrew/bin/brew shellenv)"
-    else
-        echo "Unsupported OS type: $OSTYPE. Exiting."
-        exit 1
-    fi
+  # Post-installation setup
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    # For macOS
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>~/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+  else
+    echo "Unsupported OS type: $OSTYPE. Exiting."
+    exit 1
+  fi
 else
-    echo "Homebrew is already installed."
+  echo "Homebrew is already installed."
 fi
 
 # Ensure Homebrew is up to date
@@ -39,41 +39,38 @@ brew update && brew upgrade
 # Confirm success
 echo "Homebrew is ready to use!"
 
-
 #
 # Install applications and tools via Homebrew
 #
 echo "Installing applications and tools via Homebrew..."
 brew install \
-    ansible \
-    asciiTex \
-    bash \
-    cmatrix \
-    dockutil \
-    fd \
-    fossil \
-    fzf \
-    gh \
-    git \
-    gnupg \
-    go \
-    htop \
-    lazygit \
-    lua-language-server \
-    luarocks \
-    mas \
-    mongosh \
-    neofetch \
-    nvm \
-    nushell \
-    ripgrep \
-    s3cmd \
-    stow \
-    tmux \
-    tree \
-    watchman \
-    wget \
-    yazi
+  ansible \
+  asciiTex \
+  bash \
+  cmatrix \
+  dockutil \
+  fd \
+  fossil \
+  fzf \
+  gh \
+  git \
+  gnupg \
+  go \
+  htop \
+  lazygit \
+  mas \
+  mongosh \
+  neofetch \
+  nvm \
+  nushell \
+  ripgrep \
+  s3cmd \
+  stow \
+  tmux \
+  tree \
+  watchman \
+  wget \
+  yazi
 
 # Install additional tools from taps
 brew tap mongodb/brew
@@ -81,24 +78,24 @@ brew install mongodb-community@5.0
 
 # Install cask applications
 brew install --cask \
-    brave-browser \
-    docker \
-    easyeda \
-    ghostty \
-    google-chrome \
-    logisim-evolution \
-    microsoft-office \
-    microsoft-teams \
-    mullvadvpn \
-    obsidian \
-    postman \
-    raycast \
-    the-unarchiver \
-    thonny \
-    visual-studio-code \
-    vlc \
-    whatsapp \
-    zoom
+  brave-browser \
+  docker \
+  easyeda \
+  ghostty \
+  google-chrome \
+  logisim-evolution \
+  microsoft-office \
+  microsoft-teams \
+  mullvadvpn \
+  obsidian \
+  postman \
+  raycast \
+  the-unarchiver \
+  thonny \
+  visual-studio-code \
+  vlc \
+  whatsapp \
+  zoom
 
 # Post-install message
 echo "Installation complete. Review output for any issues."
@@ -110,21 +107,21 @@ brew cleanup
 # Check if Rosetta 2 is installed
 #
 echo "Checking if Rosetta 2 is installed..."
-if /usr/bin/pgrep oahd &> /dev/null; then
-    echo "Rosetta 2 is already installed."
+if /usr/bin/pgrep oahd &>/dev/null; then
+  echo "Rosetta 2 is already installed."
 else
-    echo "Rosetta 2 is not installed. Installing Rosetta 2..."
+  echo "Rosetta 2 is not installed. Installing Rosetta 2..."
 
-    # Prompt for Rosetta installation
-    /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  # Prompt for Rosetta installation
+  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 
-    # Check if the installation succeeded
-    if [ $? -eq 0 ]; then
-        echo "Rosetta 2 installed successfully."
-    else
-        echo "Failed to install Rosetta 2. Please try manually."
-        exit 1
-    fi
+  # Check if the installation succeeded
+  if [ $? -eq 0 ]; then
+    echo "Rosetta 2 installed successfully."
+  else
+    echo "Failed to install Rosetta 2. Please try manually."
+    exit 1
+  fi
 fi
 
 #
@@ -150,8 +147,7 @@ defaults write com.apple.Finder FXPreferredViewStyle clmv
 open -a Finder
 killall Finder
 
-
-# 
+#
 # nvm post install
 #
 NVM_SETUP='
@@ -162,12 +158,11 @@ export NVM_DIR="$HOME/.nvm"
 
 # Check if lines already exist
 if ! grep -qF 'export NVM_DIR="$HOME/.nvm"' ~/.zshrc; then
-  echo "$NVM_SETUP" >> ~/.zshrc
+  echo "$NVM_SETUP" >>~/.zshrc
   echo "NVM setup added to ~/.zshrc"
 else
   echo "NVM setup already exists in ~/.zshrc"
 fi
-
 
 #
 # git configs
