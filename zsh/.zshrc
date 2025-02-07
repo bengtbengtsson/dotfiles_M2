@@ -22,3 +22,6 @@ alias ..="cd .."
 alias aoc="cd ~/aoc/2024"
 
 setopt globdots
+
+# Added by Windsurf
+export PATH="/Users/ben/.codeium/windsurf/bin:$PATH"
