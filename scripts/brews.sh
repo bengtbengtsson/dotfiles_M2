@@ -56,6 +56,7 @@ brew install \
   go \
   htop \
   lazygit \
+  luarocks \
   mas \
   mongosh \
   neofetch \
