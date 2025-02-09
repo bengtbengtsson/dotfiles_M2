@@ -15,6 +15,7 @@ PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 
 PS1=$'\n$ '
 
+source <(fzf --zsh)
 
 alias dot="cd ~/dotfiles"
 alias v=nvim
