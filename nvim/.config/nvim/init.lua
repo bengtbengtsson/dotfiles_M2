@@ -153,6 +153,9 @@ vim.opt.inccommand = "split"
 -- Show which line your cursor is on
 vim.opt.cursorline = true
 
+-- Set column mark at 80 characters
+vim.opt.colorcolumn = "80"
+
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
@@ -713,7 +716,8 @@ require("lazy").setup({
 				end
 				return {
 					timeout_ms = 500,
-					lsp_format = lsp_format_opt,
+					-- lsp_format = lsp_format_opt,
+					lsp_format = "never",
 				}
 			end,
 			formatters_by_ft = {
