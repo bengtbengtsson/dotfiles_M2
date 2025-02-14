@@ -6,6 +6,10 @@
 -- show where nvim looks for .lua files
 require("config.lazy")
 
+vim.opt.shiftwidth = 2
+
+vim.opt.clipboard = "unnamedplus"
+
 -- reload current file
 vim.keymap.set("n", "<space><space>x", "<cmd>source %<CR>")
 
@@ -22,10 +26,14 @@ vim.keymap.set("v", "<space>x", ":lua<CR>")
 -- show all in the 'vim.keymap' table
 -- :lua =vim.keymap
 
+-- the 'C-[' and 'C-]' does not work on my keyboard/system 
+vim.keymap.set("n", "<space>>", "<C-]>")
+vim.keymap.set("n", "<space><", "<C-[>")
+
 vim.api.nvim_create_autocmd('TextYankPost', {
-	desc = 'Highlight when yanking text',
-	group = vim.api.nvim_create_augroup('kickstart-highlight-yank2', { clear = true}),
-	callback = function()
-		vim.highlight.on_yank()
-	end
+  desc = 'Highlight when yanking text',
+  group = vim.api.nvim_create_augroup('kickstart-highlight-yank2', { clear = true}),
+  callback = function()
+    vim.highlight.on_yank()
+  end
 })
