@@ -81,6 +81,7 @@ brew install mongodb-community@5.0
 brew install --cask \
 <<<<<<< HEAD
     brave-browser \
+    devpod \
     docker \
     easyeda \
     ghostty \

@@ -20,23 +20,26 @@ return {
       },
     },
     config = function()
-      require("lspconfig").lua_ls.setup {
+      local capabilities = require("blink.cmp").get_lsp_capabilities()
+      require("lspconfig").lua_ls.setup({ capabilities = capabilities })
+      require("lspconfig").lua_ls.setup({
         settings = {
           Lua = {
-            format = { enable = false } -- disable lsp formatting
-          }
-        }
-      }
+            format = { enable = false }, -- disable lsp formatting
+          },
+        },
+      })
 
-      vim.api.nvim_create_autocmd('LspAttach', {
+      vim.api.nvim_create_autocmd("LspAttach", {
         callback = function()
           print("LSP ATTACHED")
-        end
+        end,
       })
       -- <space>> to go to definition
       -- C-t to jump back
       -- local x = 5
       -- print(x)
-    end
-  }
+    end,
+  },
 }
+

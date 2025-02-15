@@ -4,6 +4,7 @@
 -- echo: nvim_list_runtime_paths()
 -- show where nvim looks for .lua files
 --
+
 require("config.lazy")
 
 vim.opt.shiftwidth = 2
@@ -25,6 +26,10 @@ vim.keymap.set("v", "<space>x", ":lua<CR>")
 
 -- show all in the 'vim.keymap' table
 -- :lua =vim.keymap
+
+-- :fc close a floating window
+
+-- C-w C-w --> change to next window
 
 -- the 'C-[' and 'C-]' does not work on my keyboard/system
 vim.keymap.set("n", "<space>>", "<C-]>")
@@ -88,5 +93,5 @@ function FormatFile()
 end
 
 -- Map it to <leader>f
-vim.api.nvim_set_keymap("n", "<leader>f", ":lua FormatFile()<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>fo", ":lua FormatFile()<CR>", { noremap = true, silent = true })
 
