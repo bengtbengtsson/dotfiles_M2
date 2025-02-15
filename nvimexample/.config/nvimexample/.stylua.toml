@@ -1,0 +1,2 @@
+indent_type = "Spaces" # or "Tabs"
+indent_width = 2       # Set the desired width (match your Neovim settings)

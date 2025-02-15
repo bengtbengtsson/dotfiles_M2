@@ -56,6 +56,7 @@ brew install \
   go \
   htop \
   lazygit \
+  lua-language-server \
   luarocks \
   mas \
   mongosh \
@@ -65,6 +66,7 @@ brew install \
   ripgrep \
   s3cmd \
   stow \
+  stylua \
   tmux \
   tree \
   watchman \
