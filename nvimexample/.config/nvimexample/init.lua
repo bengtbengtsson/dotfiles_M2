@@ -95,3 +95,26 @@ end
 -- Map it to <leader>f
 vim.api.nvim_set_keymap("n", "<leader>fo", ":lua FormatFile()<CR>", { noremap = true, silent = true })
 
+
+-- Function to jump to the tag under the cursor, with error handling
+local function jump_to_tag()
+  local keyword = vim.fn.expand("<cword>") -- Get the word under the cursor
+  if keyword == "" then
+    print("No keyword under cursor")
+    return
+  end
+
+  -- Check if a tags file exists
+  local tags_path = vim.fn.findfile("tags", ".;") -- Look for "tags" file in the current dir or above
+  if tags_path == "" then
+    print("⚠️ No 'tags' file found. Run ':h tags' for setup instructions.")
+    return
+  end
+
+  -- Execute the :tag command
+  vim.cmd("tag " .. keyword)
+end
+
+-- Map <Space>ft to jump_to_tag function
+vim.keymap.set('n', '<Space>ft', jump_to_tag, { noremap = true, silent = true, desc = "Follow tag" })
+
