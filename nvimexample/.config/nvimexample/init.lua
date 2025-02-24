@@ -11,6 +11,8 @@ vim.opt.shiftwidth = 2
 
 vim.opt.clipboard = "unnamedplus"
 
+vim.opt.signcolumn = "yes"
+
 -- reload current file
 vim.keymap.set("n", "<space><space>x", "<cmd>source %<CR>")
 
@@ -34,6 +36,9 @@ vim.keymap.set("v", "<space>x", ":lua<CR>")
 -- the 'C-[' and 'C-]' does not work on my keyboard/system
 vim.keymap.set("n", "<space>>", "<C-]>")
 vim.keymap.set("n", "<space><", "<C-[>")
+
+vim.opt.number = true
+vim.opt.relativenumber = true
 
 vim.api.nvim_create_autocmd("TextYankPost", {
   desc = "Highlight when yanking text",
