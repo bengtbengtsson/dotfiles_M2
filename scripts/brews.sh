@@ -44,6 +44,7 @@ echo "Homebrew is ready to use!"
 #
 echo "Installing applications and tools via Homebrew..."
 brew install \
+  asciiquarium \
   bash \
   cmatrix \
   dockutil \
