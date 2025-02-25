@@ -57,7 +57,6 @@ brew install \
   go \
   htop \
   lazygit \
-  lua-language-server \
   luarocks \
   mas \
   mongosh \
@@ -80,7 +79,6 @@ brew install mongodb-community@5.0
 
 # Install cask applications
 brew install --cask \
-<<<<<<< HEAD
     brave-browser \
     devpod \
     docker \
@@ -101,26 +99,6 @@ brew install --cask \
     whatsapp \
     windsurf \
     zoom
-=======
-  brave-browser \
-  docker \
-  easyeda \
-  ghostty \
-  google-chrome \
-  logisim-evolution \
-  microsoft-office \
-  microsoft-teams \
-  mullvadvpn \
-  obsidian \
-  postman \
-  raycast \
-  the-unarchiver \
-  thonny \
-  visual-studio-code \
-  vlc \
-  whatsapp \
-  zoom
->>>>>>> dd947757db4ba5594c7f754114cd98ededb52ac9
 
 # Post-install message
 echo "Installation complete. Review output for any issues."
