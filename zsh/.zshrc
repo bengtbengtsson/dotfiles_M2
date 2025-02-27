@@ -19,8 +19,7 @@ source <(fzf --zsh)
 
 alias dot="cd ~/dotfiles"
 alias v=nvim
-alias ..="cd .."
-alias aoc="cd ~/aoc/2024"
+alias zet="cd ~/Documents/sb_20240218"
 
 setopt globdots
 
