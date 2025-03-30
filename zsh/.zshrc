@@ -7,7 +7,7 @@ PATH=$PATH:/Users/ben/Library/Android/sdk/platform-tools
 
 PATH="$HOME/dotfiles/scripts:$PATH"
 
-PATH="$HOME/neovim/bin:$PATH"
+#PATH="$HOME/neovim/bin:$PATH"
 
 PATH="/opt/homebrew/bin:$PATH"
 
