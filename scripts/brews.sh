@@ -71,7 +71,8 @@ brew install \
   tree \
   watchman \
   wget \
-  yazi
+  yazi \
+  zig
 
 # Install additional tools from taps
 brew tap mongodb/brew
