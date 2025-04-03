@@ -6,3 +6,4 @@
 	br = branch
 	ci = commit
 	st = status
+	lol = log --oneline --graph --decorate --all
