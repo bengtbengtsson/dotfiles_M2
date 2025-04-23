@@ -13,7 +13,14 @@ PATH="/opt/homebrew/bin:$PATH"
 
 PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 
-PS1=$'\n$ '
+#PS1=$'\n%~\n$ '
+
+# Compact one-line prompt with venv
+precmd() {
+  VENV=""
+  [[ -n "$VIRTUAL_ENV" ]] && VENV="(${VIRTUAL_ENV:t}) "
+  PS1=$'\n'"%~"$'\n'"${VENV}\$ "
+}
 
 source <(fzf --zsh)
 
