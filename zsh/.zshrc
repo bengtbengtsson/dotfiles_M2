@@ -27,6 +27,7 @@ source <(fzf --zsh)
 alias dot="cd ~/dotfiles"
 alias v=nvim
 alias zet="cd ~/Documents/sb_20240218"
+alias vks='NVIM_APPNAME="nvim-kickstart" nvim'
 
 setopt globdots
 
