@@ -77,6 +77,8 @@ brew install \
 # Install additional tools from taps
 brew tap mongodb/brew
 brew install mongodb-community@5.0
+# brew services start mongodb-community@5.0
+# brew services stop mongodb-community@5.0
 
 # Install cask applications
 brew install --cask \
