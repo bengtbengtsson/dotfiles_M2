@@ -62,9 +62,9 @@ brew install \
   mongosh \
   neofetch \
   nvm \
-  nushell \
   ripgrep \
   s3cmd \
+  sst/tap/opencode \
   stow \
   stylua \
   tmux \
@@ -83,15 +83,15 @@ brew install mongodb-community@5.0
 # Install cask applications
 brew install --cask \
     brave-browser \
-    devpod \
     docker \
     easyeda \
+    freetube \
     ghostty \
     google-chrome \
     logisim-evolution \
     microsoft-office \
     microsoft-teams \
-    mullvadvpn \
+    mullvad-vpn \
     obsidian \
     postman \
     raycast \
@@ -100,7 +100,7 @@ brew install --cask \
     visual-studio-code \
     vlc \
     whatsapp \
-    windsurf \
+    youtube-downloader \
     zoom
 
 # Post-install message
