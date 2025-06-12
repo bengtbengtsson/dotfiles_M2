@@ -56,6 +56,7 @@ brew install \
   gnupg \
   go \
   htop \
+  lastpass-cli \
   lazygit \
   luarocks \
   mas \
