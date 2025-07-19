@@ -9,24 +9,14 @@ PATH="/opt/homebrew/bin:$PATH"
 PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 PATH="/Users/ben/local/lua-5.1/bin/:$PATH"
 
-#PS1=$'\n%~\n$ '
-
-# Compact one-line prompt with venv
-precmd() {
-  VENV=""
-  [[ -n "$VIRTUAL_ENV" ]] && VENV="(${VIRTUAL_ENV:t}) "
-  PS1=$'\n'"%~"$'\n'"${VENV}\$ "
-}
+PS1='$ %~/ '
 
 source <(fzf --zsh)
 
 alias dot="cd ~/dotfiles"
-alias v=nvim
-alias zet="cd ~/Documents/sb_20240218"
-alias vks='NVIM_APPNAME="nvim-kickstart" nvim'
+alias zet="cd ~/second-brain"
 
 setopt globdots
-
 
 # Added for Raspberry PI Pico development
 export PICO_SDK_PATH=~/sandbox/tools/pico-sdk/
