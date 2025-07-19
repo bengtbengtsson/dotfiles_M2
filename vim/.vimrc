@@ -1,96 +1,118 @@
-" Need the following installed to get plugins to work
-" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-"    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"
-" Once installed run `:PlugInstall`
-
 " Basic settings
-set nocompatible          " Disable compatibility with old Vi
-filetype plugin indent on " Enable filetype detection, plugins, and indentation
-syntax on                 " Enable syntax highlighting
-set encoding=utf-8        " Use UTF-8 encoding
-set number                " Show line numbers
-set relativenumber        " Show relative line numbers
-set showcmd               " Show incomplete commands
-set cursorline            " Highlight the current line
-set wrap                  " Enable line wrapping
-set linebreak             " Break lines at word boundaries
-set clipboard=unnamedplus " Use the system clipboard
+set nocompatible              " Use Vim defaults (not Vi)
+set backspace=indent,eol,start " Allow backspacing over everything
+set history=1000              " Keep 1000 lines of command history
+set ruler                     " Show cursor position
+set showcmd                   " Show incomplete commands
+set incsearch                 " Incremental search
+set hlsearch                  " Highlight search results
+set ignorecase                " Case insensitive search
+set smartcase                 " Case sensitive if uppercase is used
+set autoindent                " Auto indent new lines
+set smartindent               " Smart indentation
+set number                    " Show line numbers
+set relativenumber            " Show relative line numbers
+set cursorline                " Highlight current line
+set wildmenu                  " Command completion menu
+set wildmode=longest:full,full " Command completion behavior
+set laststatus=2              " Always show status line
+set encoding=utf-8            " Use UTF-8 encoding
+set scrolloff=3               " Keep 3 lines visible above/below cursor
+set sidescrolloff=5           " Keep 5 columns visible left/right of cursor
 
-" Tabs and Indentation
-set tabstop=4             " Number of spaces a tab counts for
-set shiftwidth=4          " Number of spaces for each level of indentation
-set expandtab             " Use spaces instead of tabs
-set autoindent            " Copy indent from the current line when starting a new line
-set smartindent           " Smart auto-indentation
+" Indentation
+set tabstop=4                 " Tab width
+set shiftwidth=4              " Indent width
+set softtabstop=4             " Soft tab width
+set expandtab                 " Use spaces instead of tabs
+set shiftround                " Round indent to multiple of shiftwidth
 
-" Search settings
-set ignorecase            " Ignore case when searching
-set smartcase             " Override 'ignorecase' if search contains uppercase letters
-set hlsearch              " Highlight search results
-set incsearch             " Show matches as you type
+" Display
+set wrap                      " Wrap long lines
+set linebreak                 " Break lines at word boundaries
+set showbreak=↪\              " Show line breaks
+set list                      " Show invisible characters
+set listchars=tab:→\ ,trail:·,extends:>,precedes:<,nbsp:+
 
-" Performance tweaks
-set lazyredraw            " Redraw screen only when necessary
-set updatetime=300        " Faster completion (default is 4000ms)
-set timeoutlen=500        " Shorter timeout for mapped sequences
+" Files and backups
+set autoread                  " Auto-reload changed files
+set noswapfile                " Disable swap files
+set nobackup                  " Disable backup files
+set undofile                  " Enable persistent undo
+set undodir=~/.vim/undodir    " Undo directory
 
-" Use mouse in all modes
-set mouse=a
+" Performance
+set lazyredraw                " Don't redraw during macros
+set synmaxcol=300             " Syntax highlight only first 300 columns
+set updatetime=300            " Faster completion
+
+" Visual
+syntax enable                 " Enable syntax highlighting
+set background=dark           " Dark background
+colorscheme desert            " Use desert colorscheme
+set t_Co=256                  " 256 colors
+set termguicolors             " True color support
 
 " Key mappings
-nnoremap <Space> :noh<CR> " Clear search highlights with Space
-nnoremap Y y$             " Make 'Y' behave like 'D' and 'C'
-vnoremap < <gv            " Indent visually selected block left and reselect
-vnoremap > >gv            " Indent visually selected block right and reselect
-nnoremap <C-å> <C-]>
+let mapleader = " "           " Set leader key to space
 
-" Disable arrow keys in normal mode
-nnoremap <Up>    <nop>
-nnoremap <Down>  <nop>
-nnoremap <Left>  <nop>
-nnoremap <Right> <nop>
+" Clear search highlighting
+nnoremap <leader>h :nohlsearch<CR>
 
-" Disable arrow keys in insert mode
-inoremap <Up>    <nop>
-inoremap <Down>  <nop>
-inoremap <Left>  <nop>
-inoremap <Right> <nop>
+" Quick save and quit
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
 
-" Disable arrow keys in visual mode
-vnoremap <Up>    <nop>
-vnoremap <Down>  <nop>
-vnoremap <Left>  <nop>
-vnoremap <Right> <nop>
+" Better window navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
-" File and buffer management
-set hidden                " Allow switching buffers without saving
-set backup                " Enable backups
-set backupdir=~/.vim/backups " Directory for backup files
-set undofile              " Enable persistent undo
-set undodir=~/.vim/undo   " Directory for undo files
+" Move lines up/down
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
 
-" remap to fix issue with copy all file content to global clipboard
-nnoremap ggyG gg"+yG
+" Better indentation in visual mode
+vnoremap < <gv
+vnoremap > >gv
 
-" Plugins (e.g., with vim-plug)
-call plug#begin('~/.vim/plugged')
-Plug 'preservim/nerdtree'             " File explorer
-Plug 'junegunn/fzf.vim'               " Fuzzy finder
-Plug 'tpope/vim-commentary'           " Commenting utility
-Plug 'vim-airline/vim-airline'        " Status bar
-Plug 'sheerun/vim-polyglot'           " Syntax and language packs
-Plug 'LnL7/vim-nix'  " Nix syntax highlighting
-Plug 'cespare/vim-toml', { 'for': 'toml' }
-Plug 'sainnhe/gruvbox-material'       " Gruvbox theme
-Plug 'github/copilot.vim'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-call plug#end()
+" Toggle paste mode
+set pastetoggle=<F2>
 
-" Plugin-specific configurations
-autocmd FileType python set tabstop=4 shiftwidth=4 expandtab  " Python-specific indentation
+" File type specific settings
+autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
+autocmd FileType javascript,html,css,json setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType yaml setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType go setlocal tabstop=4 shiftwidth=4 softtabstop=4 noexpandtab
 
-" Appearance
-" These lines must be after the Plugins
-set background=dark                " Set background to dark
-colorscheme gruvbox-material       " Use Gruvbox colorscheme
+" Create undo directory if it doesn't exist
+if !isdirectory($HOME."/.vim/undodir")
+    call mkdir($HOME."/.vim/undodir", "p")
+endif
+
+" Auto-save when losing focus
+autocmd FocusLost * :wa
+
+" Return to last edit position when opening files
+autocmd BufReadPost *
+     \ if line("'\"") > 0 && line("'\"") <= line("$") |
+     \   exe "normal! g`\"" |
+     \ endif
+
+" Highlight trailing whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
+" Status line
+set statusline=%f       " File name
+set statusline+=%m      " Modified flag
+set statusline+=%r      " Read only flag
+set statusline+=%h      " Help buffer flag
+set statusline+=%w      " Preview window flag
+set statusline+=%=      " Left/right separator
+set statusline+=%c,     " Cursor column
+set statusline+=%l/%L   " Cursor line/total lines
+set statusline+=\ %P    " Percent through file
