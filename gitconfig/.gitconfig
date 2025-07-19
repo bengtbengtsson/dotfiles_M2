@@ -2,8 +2,4 @@
 	name = Bengt Bengtsson
 	email = bengt.bengtsson@gmail.com
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
 	lol = log --oneline --graph --decorate --all
