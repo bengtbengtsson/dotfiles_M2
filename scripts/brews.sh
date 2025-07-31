@@ -83,6 +83,7 @@ brew install mongodb-community@5.0
 
 # Install cask applications
 brew install --cask \
+    android-platform-tools \
     brave-browser \
     docker \
     easyeda \
