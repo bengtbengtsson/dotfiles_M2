@@ -1,2 +1,7 @@
 ### Usage
-```stow -t ~ <folder>```
+
+
+```sh
+xcode-select --install
+stow -t ~ <folder>
+```
