@@ -9,7 +9,16 @@ PATH="/opt/homebrew/bin:$PATH"
 PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 PATH="/Users/ben/local/lua-5.1/bin/:$PATH"
 
-PS1='$ %~/ '
+# PS1='$ %~/ '
+setopt prompt_subst
+
+git_branch() {
+      ref=$(git symbolic-ref --quiet --short HEAD 2>/dev/null || git rev-parse --short HEAD 2>/dev/null)
+        [[ -n "$ref" ]] && echo "($ref)"
+}
+
+PS1='$ %~ $(git_branch) '
+
 
 source <(fzf --zsh)
 
