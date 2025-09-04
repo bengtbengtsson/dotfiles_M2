@@ -19,6 +19,7 @@ set laststatus=2              " Always show status line
 set encoding=utf-8            " Use UTF-8 encoding
 set scrolloff=3               " Keep 3 lines visible above/below cursor
 set sidescrolloff=5           " Keep 5 columns visible left/right of cursor
+set clipboard=unnamedplus
 
 " Indentation
 set tabstop=4                 " Tab width
@@ -116,3 +117,9 @@ set statusline+=%=      " Left/right separator
 set statusline+=%c,     " Cursor column
 set statusline+=%l/%L   " Cursor line/total lines
 set statusline+=\ %P    " Percent through file
+
+augroup ForceClipboard
+  autocmd!
+  autocmd VimEnter * set clipboard=unnamedplus
+augroup END
+
