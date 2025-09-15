@@ -4,7 +4,7 @@ PATH="$HOME/dotfiles/scripts:$PATH"
 PATH="/opt/homebrew/bin:$PATH"
 PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 PATH="/Users/ben/local/lua-5.1/bin/:$PATH"
-
+export PATH
 
 
 # PS1='$ %~/ '
