@@ -28,6 +28,8 @@ setopt globdots
 # Added for Raspberry PI Pico development
 export PICO_SDK_PATH=~/sandbox/tools/pico-sdk/
 
+export TERM=xterm-256color
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
