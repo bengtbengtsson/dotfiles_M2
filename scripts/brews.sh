@@ -101,6 +101,7 @@ brew install --cask \
     the-unarchiver \
     thonny \
     visual-studio-code \
+    vim \
     vlc \
     warp \
     whatsapp \
