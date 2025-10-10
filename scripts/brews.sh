@@ -85,6 +85,7 @@ brew install mongodb-community@5.0
 brew install --cask \
     android-platform-tools \
     brave-browser \
+    claude-code \
     docker \
     easyeda \
     freetube \
@@ -100,9 +101,12 @@ brew install --cask \
     the-unarchiver \
     thonny \
     visual-studio-code \
+    vim \
     vlc \
+    warp \
     whatsapp \
     youtube-downloader \
+    zed \
     zoom
 
 # Post-install message
