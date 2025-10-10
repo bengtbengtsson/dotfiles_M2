@@ -8,3 +8,6 @@ claude/.claude/statsig/
 claude/.claude/history.jsonl
 claude/.claude/projects/
 claude/.claude/file-history/
+claude/.claude/plugins/repos/
+claude/.claude/shell-snapshots/
+claude/.claude/todos/
