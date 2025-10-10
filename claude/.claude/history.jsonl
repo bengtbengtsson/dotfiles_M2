@@ -1,0 +1,14 @@
+{"display":"can you do this with the ~/.claude already existing?","pastedContents":{},"timestamp":1760071889658,"project":"/Users/ben"}
+{"display":"i am on amcos. using Spotlight it shows remnants of app Postman. can you find and nuke","pastedContents":{},"timestamp":1760072194261,"project":"/Users/ben"}
+{"display":"thx. in general is it possible to change a name of   a repo at github","pastedContents":{},"timestamp":1760072251685,"project":"/Users/ben"}
+{"display":"i have a win10 computer nd eagerly awaiting microsoft 'extended service'. any news about that? support will end october 14","pastedContents":{},"timestamp":1760072432223,"project":"/Users/ben"}
+{"display":"/statusline ","pastedContents":{},"timestamp":1760072526199,"project":"/Users/ben"}
+{"display":"/statusline ","pastedContents":{},"timestamp":1760072526203,"project":"/Users/ben"}
+{"display":"nice. also put the model name first in claude status line, like 'Sonnet 4.5...'","pastedContents":{},"timestamp":1760072615987,"project":"/Users/ben"}
+{"display":"pls do","pastedContents":{},"timestamp":1760072663007,"project":"/Users/ben"}
+{"display":"i don't see the status line","pastedContents":{},"timestamp":1760072702942,"project":"/Users/ben"}
+{"display":"sometimes i see a claude code message in red like 'install methos is ... but ...' any thoughts","pastedContents":{},"timestamp":1760072791770,"project":"/Users/ben"}
+{"display":"install method is native ...","pastedContents":{},"timestamp":1760072824061,"project":"/Users/ben"}
+{"display":"can you do this?","pastedContents":{},"timestamp":1760072915038,"project":"/Users/ben"}
+{"display":"below is some more info. installed via homebrew. i want to manage claude that way, updates ets\n\nLast login: Fri Oct 10 06:50:16 on ttys001\n$ ~  claude doctor\n\n Diagnostics\n └ Currently running: native (2.0.13)\n └ Path: /opt/homebrew/bin/claude\n └ Invoked: /opt/homebrew/Caskroom/claude-code/2.0.13/claude\n └ Config install method: unknown\n └ Auto-updates enabled: default (true)\n └ Search: OK (bundled)\n Warning: Running native installation but config install method is 'unknown'\n Fix: Run claude install to update configuration\n\n Press Enter to continue…\n$ ~  which claude\n/opt/homebrew/bin/claude\n$ ~","pastedContents":{},"timestamp":1760072965291,"project":"/Users/ben"}
+{"display":"pls disable claude auto-updates","pastedContents":{},"timestamp":1760073128227,"project":"/Users/ben"}

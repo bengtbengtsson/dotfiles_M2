@@ -214,4 +214,6 @@ run = 'move-node-to-workspace T'
 if.app-id = 'com.brave.Browser'
 run = 'move-node-to-workspace B'
   
-#1854  | com.apple.finder      | Finder
+[[on-window-detected]]
+if.app-id = 'com.apple.finder'
+run = 'move-node-to-workspace A'

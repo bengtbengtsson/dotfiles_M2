@@ -1,0 +1,47 @@
+[DEBUG] Watching for changes in setting files /Users/ben/.claude/settings.json, /Users/ben/.claude/settings.json...
+[DEBUG] Loading skills from directories: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/ben/.claude/skills, project=/Users/ben/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Creating shell snapshot for zsh (/bin/zsh)
+[DEBUG] Looking for shell config file: /Users/ben/.zshrc
+[DEBUG] Snapshots directory: /Users/ben/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /Users/ben/.claude/shell-snapshots/snapshot-zsh-1760073040045-utevhw.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /Users/ben/.claude/todos/1671426d-e766-4e56-91b6-a302740fbcde-agent-1671426d-e766-4e56-91b6-a302740fbcde.json.tmp.64828.1760073040046
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /Users/ben/.claude/todos/1671426d-e766-4e56-91b6-a302740fbcde-agent-1671426d-e766-4e56-91b6-a302740fbcde.json.tmp.64828.1760073040046 to /Users/ben/.claude/todos/1671426d-e766-4e56-91b6-a302740fbcde-agent-1671426d-e766-4e56-91b6-a302740fbcde.json
+[DEBUG] File /Users/ben/.claude/todos/1671426d-e766-4e56-91b6-a302740fbcde-agent-1671426d-e766-4e56-91b6-a302740fbcde.json written atomically
+[DEBUG] Install: Starting installation process (force=false, target=undefined)
+[DEBUG] Install: Calling installLatest(force=true, target=undefined, forceReinstall=false)
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.64828.1760073040092
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94837 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.64828.1760073040092 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.13
+[DEBUG] Downloading native installer version 2.0.13
+[DEBUG] Shell snapshot created successfully (142713 bytes)
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/opt/homebrew/Caskroom/claude-code/2.0.13/claude)
+[DEBUG] rg error (signal=null, code=2, stderr: rg: /Users/ben/Library/Trial: Operation not permitted (os error 1)
+rg: /Users/ben/Library/Mail: Operation not permitted (os error 1)
+rg: Resource temporarily unavailable (os error 35)
+), 121338 results
+[DEBUG] Successfully updated to version 2.0.13
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.64828.1760073043552
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94878 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.64828.1760073043552 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Native installer: Set installMethod to "native" and disabled legacy auto-updater for protection
+[DEBUG] Install: installLatest returned version=2.0.13, wasUpdated=true, lockFailed=false
+[DEBUG] Install: Setup launcher completed with 0 messages
+[DEBUG] Install: Cleaning up npm installations after successful install
+[DEBUG] Removed global npm installation of @anthropic-ai/claude-code
+[DEBUG] Cleaned up 1 npm installation(s)
+[DEBUG] Install: Shell PATH already configured

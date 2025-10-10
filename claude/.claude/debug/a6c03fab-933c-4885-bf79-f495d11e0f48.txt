@@ -1,0 +1,32 @@
+[DEBUG] Watching for changes in setting files /Users/ben/.claude/settings.json, /Users/ben/.claude/settings.json...
+[ERROR] Error: Error: console.error: Error: Raw mode is not supported on the current process.stdin, which Ink uses as input stream by default.
+Read about how to prevent this error on https://github.com/vadimdemedes/ink/#israwmodesupported
+    at handleSetRawMode (/$bunfs/root/claude:188:1758)
+    at <anonymous> (/$bunfs/root/claude:191:335)
+    at WV (/$bunfs/root/claude:78:21537)
+    at WF (/$bunfs/root/claude:78:41121)
+    at <anonymous> (/$bunfs/root/claude:78:39312)
+    at Wt0 (/$bunfs/root/claude:72:5022)
+    at ao0 (/$bunfs/root/claude:72:5443)
+
+    at <anonymous> (/$bunfs/root/claude:190:6715)
+    at <anonymous> (/$bunfs/root/claude:72:3010)
+    at value (native:173:22)
+    at warn (native:243:9)
+    at ec (/$bunfs/root/claude:78:181)
+    at <anonymous> (/$bunfs/root/claude:78:699)
+    at uc (/$bunfs/root/claude:76:18069)
+    at Tw (/$bunfs/root/claude:78:28650)
+    at o2 (/$bunfs/root/claude:78:28212)
+    at YV (/$bunfs/root/claude:78:27714)
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.65304.1760073074874
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94878 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.65304.1760073074874 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically

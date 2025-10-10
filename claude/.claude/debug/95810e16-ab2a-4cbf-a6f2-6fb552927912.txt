@@ -1,0 +1,486 @@
+[DEBUG] Watching for changes in setting files /Users/ben/.claude/settings.json, /Users/ben/.claude/settings.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Summarizing all 26 messages (~67317 tokens)
+[DEBUG] Loading skills from directories: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/ben/.claude/skills, project=/Users/ben/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Creating shell snapshot for zsh (/bin/zsh)
+[DEBUG] Looking for shell config file: /Users/ben/.zshrc
+[DEBUG] Snapshots directory: /Users/ben/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /Users/ben/.claude/shell-snapshots/snapshot-zsh-1760072709834-f8xsiq.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /Users/ben/.claude/todos/95810e16-ab2a-4cbf-a6f2-6fb552927912-agent-95810e16-ab2a-4cbf-a6f2-6fb552927912.json.tmp.63513.1760072709835
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /Users/ben/.claude/todos/95810e16-ab2a-4cbf-a6f2-6fb552927912-agent-95810e16-ab2a-4cbf-a6f2-6fb552927912.json.tmp.63513.1760072709835 to /Users/ben/.claude/todos/95810e16-ab2a-4cbf-a6f2-6fb552927912-agent-95810e16-ab2a-4cbf-a6f2-6fb552927912.json
+[DEBUG] File /Users/ben/.claude/todos/95810e16-ab2a-4cbf-a6f2-6fb552927912-agent-95810e16-ab2a-4cbf-a6f2-6fb552927912.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072709839
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072709839 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072709865
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072709865 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072709867
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072709867 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] rg error (signal=null, code=2, stderr: rg: Resource temporarily unavailable (os error 35)
+), 26252 results
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/opt/homebrew/Caskroom/claude-code/2.0.13/claude)
+[DEBUG] Shell snapshot created successfully (142704 bytes)
+[DEBUG] Summarizing all 19 messages (~46661 tokens)
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072712055
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072712055 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072712093
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93876 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072712093 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072712100
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072712100 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072712101
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072712101 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072712103
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072712103 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Summarizing last 11 of 38 messages (~137879 tokens)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for eef6bbd2-4d29-41cc-8015-b619332a2bb7, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072791748
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072791748 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[ERROR] Error: Error: Request was aborted.
+    at _createMessage (/$bunfs/root/claude:386:4506)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072791769
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072791769 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072791772
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93942 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072791772 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 032f7aca-51b5-4f19-8fd5-3c328328ccaa
+[DEBUG] FileHistory: Added snapshot for 032f7aca-51b5-4f19-8fd5-3c328328ccaa, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072824051
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93942 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072824051 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072824060
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93942 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072824060 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072824063
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94047 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072824063 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message cf532f2c-f4aa-4224-aefb-4e17c7827ac9
+[DEBUG] FileHistory: Added snapshot for cf532f2c-f4aa-4224-aefb-4e17c7827ac9, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "claude doctor"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: claude doctor
+[DEBUG] Bash tool description: Run Claude Code diagnostic check
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072915015
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94047 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072915015 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072915036
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94047 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072915036 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072915039
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94140 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072915039 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 6531526f-3c3a-405a-9418-db1d5fbe4125
+[DEBUG] FileHistory: Added snapshot for 6531526f-3c3a-405a-9418-db1d5fbe4125, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072965282
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94140 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072965282 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072965290
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94140 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072965290 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760072965293
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94837 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760072965293 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 9c6eb10a-bc8a-4478-aee0-915b607ce196
+[DEBUG] FileHistory: Added snapshot for 9c6eb10a-bc8a-4478-aee0-915b607ce196, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Bash tool invoked with command: ls -la ~/.config/claude/
+[DEBUG] Bash tool description: List Claude config directory contents
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Bash tool invoked with command: ls -la ~/Library/Application\ Support/claude/
+[DEBUG] Bash tool description: Check macOS Application Support directory
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Edit: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] Reading through symlink: /Users/ben/Library/Application Support/claude/config.json -> /Users/ben/Library/Application Support/Claude/config.json
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Reading through symlink: /Users/ben/Library/Application Support/claude/config.json -> /Users/ben/Library/Application Support/Claude/config.json
+[DEBUG] FileHistory: Tracked file modification for /Users/ben/Library/Application Support/claude/config.json
+[DEBUG] Writing to temp file: /Users/ben/Library/Application Support/claude/config.json.tmp.63513.1760073025441
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/Library/Application Support/claude/config.json.tmp.63513.1760073025441 to /Users/ben/Library/Application Support/claude/config.json
+[DEBUG] File /Users/ben/Library/Application Support/claude/config.json written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "claude install"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: echo "" | claude install
+[DEBUG] Bash tool description: Update Claude installation config
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "claude doctor"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: echo "" | claude doctor
+[DEBUG] Bash tool description: Verify Claude configuration
+[DEBUG] Checking for native installer update to version 2.0.13
+[DEBUG] Version 2.0.13 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.13
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760073128209
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94878 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760073128209 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760073128226
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94878 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760073128226 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760073128229
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94986 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760073128229 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Cleaned up session snapshot: /Users/ben/.claude/shell-snapshots/snapshot-zsh-1760072709834-f8xsiq.sh
+[DEBUG] FileHistory: Making snapshot for message 118e8aaa-e7f9-422d-a44d-a4489508de3e
+[DEBUG] FileHistory: Added snapshot for 118e8aaa-e7f9-422d-a44d-a4489508de3e, tracking 1 files
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.63513.1760073130525
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 95411 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.63513.1760073130525 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically

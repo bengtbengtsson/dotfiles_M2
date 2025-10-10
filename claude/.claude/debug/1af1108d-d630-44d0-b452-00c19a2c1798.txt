@@ -1,0 +1,748 @@
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Summarizing last 10 of 15 messages (~142161 tokens)
+[DEBUG] Loading skills from directories: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/ben/.claude/skills, project=/Users/ben/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Creating shell snapshot for zsh (/bin/zsh)
+[DEBUG] Looking for shell config file: /Users/ben/.zshrc
+[DEBUG] Snapshots directory: /Users/ben/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /Users/ben/.claude/shell-snapshots/snapshot-zsh-1760072010277-5jdp6j.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json.tmp.62122.1760072010278
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json.tmp.62122.1760072010278 to /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json
+[DEBUG] File /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072010282
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92831 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072010282 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072010308
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92831 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072010308 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072010310
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92831 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072010310 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/opt/homebrew/Caskroom/claude-code/2.0.13/claude)
+[DEBUG] Shell snapshot created successfully (142704 bytes)
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072012039
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92831 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072012039 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072012076
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92936 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072012076 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072012085
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92831 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072012085 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072012087
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92831 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072012087 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072012089
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92831 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072012089 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] rg error (signal=null, code=2, stderr: rg: /Users/ben/Library/Trial: Operation not permitted (os error 1)
+rg: /Users/ben/Library/Mail: Operation not permitted (os error 1)
+rg: /Users/ben/Library/Caches/com.apple.ap.adprivacyd: Operation not permitted (os error 1)
+rg: Resource temporarily unavailable (os error 35)
+), 157348 results
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for c3678150-145a-4d61-9d8f-0a0ba1a97914, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json.tmp.62122.1760072077635
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 347 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json.tmp.62122.1760072077635 to /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json
+[DEBUG] File /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//Applications/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Bash tool invoked with command: find ~/Library/Application\ Support -iname "*postman*" -maxdepth 2 2>/dev/null
+[DEBUG] Bash tool description: Search for Postman in Application Support
+[DEBUG] Bash tool invoked with command: find ~/Library/Preferences -iname "*postman*" 2>/dev/null
+[DEBUG] Bash tool description: Search for Postman in Preferences
+[DEBUG] Bash tool invoked with command: find ~/Library/Caches -iname "*postman*" -maxdepth 2 2>/dev/null
+[DEBUG] Bash tool description: Search for Postman in Caches
+[DEBUG] Bash tool invoked with command: find ~/Library/Saved\ Application\ State -iname "*postman*" 2>/dev/null
+[DEBUG] Bash tool description: Search for Postman in Saved Application State
+[DEBUG] Bash tool invoked with command: find ~/Library/Logs -iname "*postman*" -maxdepth 2 2>/dev/null
+[DEBUG] Bash tool description: Search for Postman in Logs
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: find /Applications -iname "*postman*" 2>/dev/null
+[DEBUG] Bash tool description: Search for Postman in Applications
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Bash tool invoked with command: find ~/Library/Containers -iname "*postman*" -maxdepth 1 2>/dev/null
+[DEBUG] Bash tool description: Search for Postman in Containers
+[DEBUG] Bash tool invoked with command: find ~/Library/Group\ Containers -iname "*postman*" -maxdepth 1 2>/dev/null
+[DEBUG] Bash tool description: Search for Postman in Group Containers
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json.tmp.62122.1760072111360
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 349 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json.tmp.62122.1760072111360 to /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json
+[DEBUG] File /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "rm:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: rm -rf "/Users/ben/Library/Application Support/Postman" && echo "✓ Removed Application Support/Postman"
+[DEBUG] Bash tool description: Remove Postman from Application Support
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "rm:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: rm -f "/Users/ben/Library/Preferences/ByHost/com.postmanlabs.mac.ShipIt.8D1D7160-AE20-5225-BDD7-3B1EC0752828.plist" && echo "✓ Removed ShipIt plist"
+[DEBUG] Bash tool description: Remove Postman ShipIt preference file
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "rm:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: rm -f "/Users/ben/Library/Preferences/com.postmanlabs.mac.plist" && echo "✓ Removed main plist"
+[DEBUG] Bash tool description: Remove Postman main preference file
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "rm:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: rm -rf "/Users/ben/Library/Caches/com.postmanlabs.mac" && echo "✓ Removed cache directory"
+[DEBUG] Bash tool description: Remove Postman cache directory
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "rm:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: rm -rf "/Users/ben/Library/Caches/com.postmanlabs.mac.ShipIt" && echo "✓ Removed ShipIt cache"
+[DEBUG] Bash tool description: Remove Postman ShipIt cache
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json.tmp.62122.1760072144000
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json.tmp.62122.1760072144000 to /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json
+[DEBUG] File /Users/ben/.claude/todos/1af1108d-d630-44d0-b452-00c19a2c1798-agent-1af1108d-d630-44d0-b452-00c19a2c1798.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "mdfind:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: mdfind -name postman 2>/dev/null | head -20
+[DEBUG] Bash tool description: Verify Postman removal using Spotlight
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "rm:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: rm -rf "/Users/ben/Library/HTTPStorages/com.postmanlabs.mac" && echo "✓ Removed HTTP storage"
+[DEBUG] Bash tool description: Remove Postman HTTP storage
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Bash tool invoked with command: ls -la "/Users/ben/Postman" 2>/dev/null | head -10
+[DEBUG] Bash tool description: Check Postman directory contents
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "rm:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: rm -rf "/Users/ben/Applications/Chrome Apps.localized/Postman.app" && echo "✓ Removed Chrome app"
+[DEBUG] Bash tool description: Remove Postman Chrome app
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Bash tool invoked with command: ls -la "/Users/ben/Postman/files" 2>/dev/null
+[DEBUG] Bash tool description: Check Postman files directory
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "rm:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: rm -rf "/Users/ben/Postman" && echo "✓ Removed Postman directory"
+[DEBUG] Bash tool description: Remove Postman user directory
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "mdfind:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Bash tool invoked with command: mdfind -name postman 2>/dev/null | grep -v "Beatles" | grep -v ".mp3"
+[DEBUG] Bash tool description: Final verification of Postman removal
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072194248
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92831 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072194248 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072194259
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92831 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072194259 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072194263
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92994 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072194263 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 5d91f7e5-7c97-4d27-94de-1b6332856ccb
+[DEBUG] FileHistory: Added snapshot for 5d91f7e5-7c97-4d27-94de-1b6332856ccb, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072251675
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92994 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072251675 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072251684
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 92994 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072251684 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072251686
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93140 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072251686 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message dd76065c-df9a-4697-8976-6ba2b8bab1ed
+[DEBUG] FileHistory: Added snapshot for dd76065c-df9a-4697-8976-6ba2b8bab1ed, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+    at RI (/$bunfs/root/claude:2071:731)
+    at map (native:1:11)
+    at c3 (/$bunfs/root/claude:2071:448)
+    at Mc5 (/$bunfs/root/claude:2071:12745)
+    at Cw (/$bunfs/root/claude:76:19416)
+    at Vp (/$bunfs/root/claude:78:42816)
+    at F9 (/$bunfs/root/claude:78:38357)
+    at Ab (/$bunfs/root/claude:78:38285)
+    at kw (/$bunfs/root/claude:78:38139)
+    at g$ (/$bunfs/root/claude:78:35218)
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072432208
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93140 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072432208 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072432222
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93140 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072432222 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072432226
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93339 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072432226 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
+[DEBUG] Cleaned up session snapshot: /Users/ben/.claude/shell-snapshots/snapshot-zsh-1760072010277-5jdp6j.sh
+[DEBUG] FileHistory: Making snapshot for message 24188610-2e3f-40f0-829a-7adf7cdffa81
+[DEBUG] FileHistory: Added snapshot for 24188610-2e3f-40f0-829a-7adf7cdffa81, tracking 0 files
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.62122.1760072449630
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 93764 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.62122.1760072449630 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically

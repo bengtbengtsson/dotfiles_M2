@@ -1,0 +1,12 @@
+[DEBUG] Watching for changes in setting files /Users/ben/.claude/settings.json, /Users/ben/.claude/settings.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Writing to temp file: /Users/ben/.claude.json.tmp.65363.1760073117238
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 94878 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /Users/ben/.claude.json.tmp.65363.1760073117238 to /Users/ben/.claude.json
+[DEBUG] File /Users/ben/.claude.json written atomically
