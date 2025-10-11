@@ -7,6 +7,8 @@ font-feature = -dlig
 
 theme = Gruvbox Dark
 
+auto-update = off
+
 mouse-hide-while-typing = true
 
 copy-on-select = clipboard
