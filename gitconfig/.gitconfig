@@ -3,3 +3,7 @@
 	email = bengt.bengtsson@gmail.com
 [alias]
 	lol = log --oneline --graph --decorate --all
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
