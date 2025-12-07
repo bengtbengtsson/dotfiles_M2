@@ -1,6 +1,6 @@
 # ---- PATH edits first ----
 PATH=$PATH:/Users/ben/Library/Android/sdk/platform-tools
-PATH="$HOME/dotfiles/scripts:$PATH"
+PATH="$HOME/.local/bin:$PATH"
 PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 PATH="/Users/ben/local/lua-5.1/bin/:$PATH"
 export PATH
