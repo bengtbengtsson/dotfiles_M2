@@ -17,14 +17,14 @@ set wildmenu                  " Command completion menu
 set wildmode=longest:full,full " Command completion behavior
 set laststatus=2              " Always show status line
 set encoding=utf-8            " Use UTF-8 encoding
-set scrolloff=3               " Keep 3 lines visible above/below cursor
+set scrolloff=5               " Keep 3 lines visible above/below cursor
 set sidescrolloff=5           " Keep 5 columns visible left/right of cursor
 set clipboard=unnamedplus
 
 " Indentation
-set tabstop=4                 " Tab width
-set shiftwidth=4              " Indent width
-set softtabstop=4             " Soft tab width
+set tabstop=2                 " Tab width
+set shiftwidth=2              " Indent width
+set softtabstop=2             " Soft tab width
 set expandtab                 " Use spaces instead of tabs
 set shiftround                " Round indent to multiple of shiftwidth
 
@@ -61,8 +61,8 @@ let mapleader = " "           " Set leader key to space
 nnoremap <leader>h :nohlsearch<CR>
 
 " Quick save and quit
-nnoremap <leader>w :w<CR>
-nnoremap <leader>q :q<CR>
+" nnoremap <leader>w :w<CR>
+" nnoremap <leader>q :q<CR>
 
 " Better window navigation
 nnoremap <C-h> <C-w>h
@@ -95,7 +95,7 @@ if !isdirectory($HOME."/.vim/undodir")
 endif
 
 " Auto-save when losing focus
-autocmd FocusLost * :wa
+" autocmd FocusLost * :wa
 
 " Return to last edit position when opening files
 autocmd BufReadPost *
@@ -107,8 +107,14 @@ autocmd BufReadPost *
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+function! GitBranch()
+  let l:branch = system('git rev-parse --abbrev-ref HEAD 2>/dev/null')
+  return strlen(l:branch) ? substitute(l:branch, '\n', '', '') : ''
+endfunction
+
 " Status line
 set statusline=%f       " File name
+set statusline+=\ [%{GitBranch()}] "Git branch"
 set statusline+=%m      " Modified flag
 set statusline+=%r      " Read only flag
 set statusline+=%h      " Help buffer flag
