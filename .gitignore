@@ -8,7 +8,7 @@ claude/.claude/statsig/
 claude/.claude/history.jsonl
 claude/.claude/projects/
 claude/.claude/file-history/
-claude/.claude/plugins/repos/
+claude/.claude/plugins/
 claude/.claude/shell-snapshots/
 claude/.claude/todos/
 claude/.claude/session-env/
