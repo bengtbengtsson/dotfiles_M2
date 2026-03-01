@@ -12,7 +12,14 @@ cwd=$(pwd)
 # Git branch function (with --no-optional-locks to avoid lock issues)
 git_branch() {
     ref=$(git --no-optional-locks symbolic-ref --quiet --short HEAD 2>/dev/null || git --no-optional-locks rev-parse --short HEAD 2>/dev/null)
-    [[ -n "$ref" ]] && echo "($ref)"
+    if [[ -n "$ref" ]]; then
+        # Check for uncommitted changes (dirty indicator)
+        if ! git --no-optional-locks diff --quiet 2>/dev/null || ! git --no-optional-locks diff --cached --quiet 2>/dev/null; then
+            echo "($ref*)"
+        else
+            echo "($ref)"
+        fi
+    fi
 }
 
 # Build the status line: model name, then directory, then git branch

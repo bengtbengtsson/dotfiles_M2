@@ -21,6 +21,7 @@ source <(fzf --zsh)
 
 alias dot="cd ~/dotfiles"
 alias zet="cd ~/second-brain"
+alias scheme='rlwrap mit-scheme'
 
 setopt globdots
 

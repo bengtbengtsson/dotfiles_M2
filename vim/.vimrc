@@ -19,7 +19,7 @@ set laststatus=2              " Always show status line
 set encoding=utf-8            " Use UTF-8 encoding
 set scrolloff=5               " Keep 3 lines visible above/below cursor
 set sidescrolloff=5           " Keep 5 columns visible left/right of cursor
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " Indentation
 set tabstop=2                 " Tab width
@@ -41,6 +41,14 @@ set noswapfile                " Disable swap files
 set nobackup                  " Disable backup files
 set undofile                  " Enable persistent undo
 set undodir=~/.vim/undodir    " Undo directory
+
+" Mouse
+set mouse=a                   " Enable mouse in all modes
+if has('mouse_sgr')
+  set ttymouse=sgr            " Better mouse support in tmux
+elseif !has('nvim')
+  set ttymouse=xterm2         " Fallback for tmux
+endif
 
 " Performance
 set lazyredraw                " Don't redraw during macros
@@ -126,6 +134,6 @@ set statusline+=\ %P    " Percent through file
 
 augroup ForceClipboard
   autocmd!
-  autocmd VimEnter * set clipboard=unnamedplus
+  autocmd VimEnter * set clipboard=unnamed
 augroup END
 
