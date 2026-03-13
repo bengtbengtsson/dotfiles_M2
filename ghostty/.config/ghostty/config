@@ -15,4 +15,3 @@ focus-follows-mouse = true
 copy-on-select = clipboard
 keybind = shift+enter=text:\n
 
-command = /bin/zsh -c '/opt/homebrew/bin/tmux new-session -A -s main; exec /bin/zsh'
