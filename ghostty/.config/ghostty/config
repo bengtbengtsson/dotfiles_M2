@@ -14,4 +14,3 @@ focus-follows-mouse = true
 
 copy-on-select = clipboard
 keybind = shift+enter=text:\n
-
