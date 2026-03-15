@@ -108,6 +108,9 @@ on-mode-changed = []
     # end tell'
     # '''
 
+    # Fullscreen toggle (alt + Ä on Swedish keyboard)
+    alt-quote = 'fullscreen'
+
     # Open Ghostty terminal
     alt-enter = 'exec-and-forget open -a Ghostty'
 
