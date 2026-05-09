@@ -5,6 +5,14 @@ PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 PATH="/Users/ben/local/lua-5.1/bin/:$PATH"
 export PATH
 
+cat << 'EOF'
+ ____  ____    _____
+| __ )| __ )  |_   _|___  ___
+|  _ \|  _ \    | | / _ \/ __|
+| |_) | |_) |   | ||  __/ (__
+|____/|____/    |_| \___|\___|
+
+EOF
 
 # PS1='$ %~/ '
 setopt prompt_subst
@@ -22,7 +30,7 @@ source <(fzf --zsh)
 alias dot="cd ~/dotfiles"
 alias zet="cd ~/second-brain"
 alias scheme='rlwrap mit-scheme'
-alias cc='claude'
+alias cc='claude --dangerously-skip-permissions'
 
 setopt globdots
 

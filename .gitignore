@@ -13,3 +13,11 @@ claude/.claude/shell-snapshots/
 claude/.claude/todos/
 claude/.claude/session-env/
 claude/.claude/plans/
+claude/.claude/backups/
+claude/.claude/cache/
+claude/.claude/paste-cache/
+claude/.claude/sessions/
+claude/.claude/tasks/
+claude/.claude/telemetry/
+claude/.claude/mcp-needs-auth-cache.json
+claude/.claude/stats-cache.json
