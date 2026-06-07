@@ -22,3 +22,4 @@ claude/.claude/telemetry/
 claude/.claude/mcp-needs-auth-cache.json
 claude/.claude/stats-cache.json
 claude/.claude/.last-cleanup
+claude/.claude/.last-update-result.json
