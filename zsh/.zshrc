@@ -49,3 +49,6 @@ export PATH="/Users/ben/.antigravity/antigravity/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
+# Rust toolchain (rustup installed via Homebrew)
+export PATH="$HOME/.cargo/bin:$PATH"
