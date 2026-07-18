@@ -34,6 +34,9 @@ alias cc='claude --dangerously-skip-permissions'
 
 setopt globdots
 
+# Let self-updating casks (VS Code etc.) update themselves instead of brew upgrade
+export HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1
+
 # Added for Raspberry PI Pico development
 export PICO_SDK_PATH=~/sandbox/tools/pico-sdk/
 
