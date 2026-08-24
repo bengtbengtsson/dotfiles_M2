@@ -30,7 +30,7 @@ source <(fzf --zsh)
 alias dot="cd ~/dotfiles"
 alias zet="cd ~/second-brain"
 alias scheme='rlwrap mit-scheme'
-alias cc='claude --dangerously-skip-permissions'
+alias cc='claude'
 
 setopt globdots
 
