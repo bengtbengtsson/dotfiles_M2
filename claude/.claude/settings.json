@@ -1,4 +1,5 @@
 {
+  "model": "claude-fable-5[1m]",
   "statusLine": {
     "type": "command",
     "command": "bash /Users/ben/.claude/statusline-command.sh"
@@ -8,6 +9,11 @@
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
-  "skipDangerousModePermissionPrompt": false,
-  "model": "claude-fable-5[1m]"
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
 }
